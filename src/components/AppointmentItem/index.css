@@ -1,0 +1,46 @@
+.list-item {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.appointment-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+  width: 100%;
+}
+.name {
+  color: #171f46;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+.star-button {
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+}
+
+.date {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 11px;
+  margin: 0px;
+}
+.star {
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  align-self: center;
+  border: none;
+  outline: none;
+}
